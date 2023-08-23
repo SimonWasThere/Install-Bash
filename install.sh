@@ -27,7 +27,7 @@ apk upgrade
 mkdir Docker
 git clone https://github.com/nextcloud/docker.git
 mv docker ~/Docker
-chmod +x PythonHttpServer/PHS.sh
+chmod +x PHS.sh
 git clone https://github.com/charlespascoe/vmd.git
 mv vmd ~/coding/Python
 apk update
