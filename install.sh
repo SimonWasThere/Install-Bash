@@ -12,6 +12,8 @@ apk add htop
 apk add curl
 apk add --update py-pip
 apk add docker
+apk add go
+apk add rust
 apk update
 apk upgrade
 mkdir coding
@@ -22,13 +24,16 @@ mkdir coding/C++
 mkdir coding/C#
 mkdir coding/HMTL
 mkdir coding/Go
+mkdir coding/Rust
 apk update
 apk upgrade
 mkdir Docker
 git clone https://github.com/nextcloud/docker.git
 mv docker ~/Docker
-chmod +x PHS.sh
+chmod +x PythonHttpServer/PHS.sh
 git clone https://github.com/charlespascoe/vmd.git
 mv vmd ~/coding/Python
+git clone https://github.com/SpikeHD/Dorion.git
+mv Dorion ~/coding/Rust
 apk update
 apk upgrade
