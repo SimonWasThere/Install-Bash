@@ -22,10 +22,6 @@ mkdir coding/C++
 mkdir coding/C#
 mkdir coding/HMTL
 mkdir coding/Go
-mkdir EmulatorJS
-mkdir EmulatorJS/Emerald
-mkdir EmulatorJS/FireRed
-mkdir EmulatorJS/LeafGreen
 apk update
 apk upgrade
 mkdir Docker
